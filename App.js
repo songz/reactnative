@@ -140,7 +140,7 @@ const Page1 = ({ setLoginToken }) => {
   };
   return (
     <View style={styles.container}>
-      <Text style={styles.paragraph}>What is your username?</Text>
+      <Text style={styles.paragraph}>Pick a username!</Text>
       <TextInput
         label="Name"
         value={name}
@@ -164,7 +164,7 @@ export default function App() {
     getToken();
   }, []);
   if (jwttoken) {
-    return <Page2 setLoginToken={setJwttoken} />;
+    return <Page3 setLoginToken={setJwttoken} />;
   }
   return <Page1 setLoginToken={setJwttoken} />;
 }
