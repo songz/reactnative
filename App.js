@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Text, View, StyleSheet, Keyboard, Platform } from "react-native";
-import * as Notifications from "expo-notifications";
-import * as Permissions from "expo-permissions";
+//import * as Notifications from "expo-notifications";
+//import * as Permissions from "expo-permissions";
 import Constants from "expo-constants";
-import * as SecureStore from "expo-secure-store";
-import { Camera } from "expo-camera";
+//import * as SecureStore from "expo-secure-store";
+//import { Camera } from "expo-camera";
 import { Card, TextInput, Button } from "react-native-paper";
 
 const Page1 = () => {
